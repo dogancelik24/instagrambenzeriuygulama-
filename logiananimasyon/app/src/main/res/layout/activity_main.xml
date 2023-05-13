@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+  <RelativeLayout
+      android:id="@+id/Resim"
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="0dp"
+      android:background="@drawable/shape2">
+      <LinearLayout
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:orientation="horizontal"
+          android:background="@drawable/shape1"/>
+      <ImageView
+          android:id="@+id/img1"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:layout_alignLeft="@+id/Resim"
+          android:layout_alignTop="@+id/Resim"
+          android:src="@drawable/dclogos"
+          android:layout_marginLeft="25dp"
+          android:layout_marginTop="25dp"
+          tools:ignore="NotSibling" />
+      <TextView
+          android:id="@+id/t1"
+          android:layout_width="220dp"
+          android:layout_height="150dp"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:text="DOSTAGRAM"
+          android:textSize="25sp"
+          android:textStyle="bold"
+          android:gravity="center"/>
+  </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/shape3"/>
+
+    <RelativeLayout
+        android:id="@+id/panelim"
+        android:layout_width="305dp"
+        android:layout_height="344dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/shape4"
+        tools:ignore="ExtraText">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/baseline_person_24"
+            android:ems="10"
+            android:hint="Adı Soyadı"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textSize="18sp" />
+        a
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="80dp"
+            android:drawableRight="@drawable/baseline_key_24"
+            android:ems="10"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="150dp"
+            android:drawableRight="@drawable/baseline_email_24"
+            android:ems="10"
+            android:hint="******@******.com"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="212dp"
+            android:text="GİRİŞ"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="271dp"
+            android:text="KAYDOL"
+            android:textSize="20sp"
+            />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/facelogo"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/instlogo"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           android:src="@drawable/twittlogo"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+ </RelativeLayout>
